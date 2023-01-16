@@ -785,6 +785,11 @@ video {
   bottom: 50%;
 }
 
+.after\:left-1::after {
+  content: var(--tw-content);
+  left: 0.25rem;
+}
+
 .after\:h-7::after {
   content: var(--tw-content);
   height: 1.75rem;
